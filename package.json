@@ -1,0 +1,14 @@
+{
+  "name": "My app",
+  "description": "My app description",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "gulp": "latest",
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "gulp-util": "latest",
+    "gulp-livereload": "latest",
+    "karma-osx-reporter": "latest"
+  }
+}
