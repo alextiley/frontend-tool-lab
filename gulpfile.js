@@ -23,8 +23,7 @@
 
     /*global require, __dirname*/
 
-    var basedir = __dirname + '/../',
-        gulp = require('gulp'),
+    var gulp = require('gulp'),
         plugins = {},
         paths = {},
         self = {};
@@ -44,7 +43,7 @@
      * @type []
      */
     paths.livereload = [
-        basedir + 'resources/**/*.css'
+        __dirname + 'css/**/*.css'
     ];
 
     /**
